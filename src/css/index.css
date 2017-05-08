@@ -151,6 +151,10 @@
     padding: .5em;
     display: block;
 }
+.foto-home {
+    height: 200px;
+    border-radius: 50%;
+}
 header {
     position: relative;
 }
