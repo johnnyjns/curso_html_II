@@ -1,15 +1,75 @@
-.eficiencia {
+.palavra-home {
     position: absolute;
-    top: 20%;
+    font-family: "Shadows Into Light", cursive;
+    font-weight: bold;
+    color: #D5447E;
+    font-size: 0.4em;
+}
+.eficiencia {
+    top: 15%;
     left: 75%;
 }
-.inicio-post {
-    background-color: #FFF;
+.boas-praticas {
+    top: 40%;
+    left: 20%;
+}
+.codigo-limpo {
+    top: 25%;
+    left: 10%;
+}
+.css3 {
+    top: 28%;
+    left: 28%;
+}
+.html5 {
+    top: 27%;
+    left: 78%;
+}
+.javascript {
+    top: 7%;
+    left: 60%;
+}
+.acessibilidade {
+    top: 20%;
+    left: 25%;
+}
+.responsivo {
+    top: 10%;
+    left: 15%;
+}
+.otimizacoes {
+    top: 35%;
+    left: 70%;
+}
+.agilidade {
+    top: 7%;
+    left: 30%;
+}
+.design {
+    top: 23%;
+    left: 65%;
+}
+.blog .inicio-post {
     position: absolute;
-    top: 3em;
-    right: 3em;
-    height: 6em;
-    padding: 1em;
+    top: 4em;
+    height: 8em;
+    left: 30%;
+    right: 4em;
+    background-color: #F2FFFC;
+    color: #000;
+    padding: 1.5em;
+}
+.blog {
+    position: relative;
+}
+.blog .mais-recente {
+    background-color: #F2FFFC;
+}
+.blog .mais-recente a {
+    color: #F26;
+}
+.blog li {
+    width: 30%;
 }
 .foto-home {
     height: 200px;
@@ -90,6 +150,9 @@
     color: #FCF;
     padding: .5em;
     display: block;
+}
+header {
+    position: relative;
 }
 footer {
     background-color: #000;
