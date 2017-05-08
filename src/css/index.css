@@ -8,46 +8,68 @@
 .eficiencia {
     top: 15%;
     left: 75%;
+    -webkit-transform: rotate(-5deg);
+            transform: rotate(-5deg);
 }
 .boas-praticas {
     top: 40%;
     left: 20%;
+    -webkit-transform: rotate(10deg);
+            transform: rotate(10deg);
 }
 .codigo-limpo {
     top: 25%;
     left: 10%;
+    -webkit-transform: rotate(-10deg);
+            transform: rotate(-10deg);
 }
 .css3 {
     top: 28%;
     left: 28%;
+    -webkit-transform: rotate(5deg);
+            transform: rotate(5deg);
 }
 .html5 {
     top: 27%;
     left: 78%;
+    -webkit-transform: rotate(10deg);
+            transform: rotate(10deg);
 }
 .javascript {
     top: 7%;
     left: 60%;
+    -webkit-transform: rotate(-5deg);
+            transform: rotate(-5deg);
 }
 .acessibilidade {
     top: 20%;
     left: 25%;
+    -webkit-transform: rotate(-5deg);
+            transform: rotate(-5deg);
 }
 .responsivo {
     top: 10%;
     left: 15%;
+    -webkit-transform: rotate(10deg);
+            transform: rotate(10deg);
 }
 .otimizacoes {
     top: 35%;
     left: 70%;
+    -webkit-transform: rotate(-5deg);
+            transform: rotate(-5deg);
 }
 .agilidade {
     top: 7%;
     left: 30%;
+    -webkit-transform: rotate(5deg);
+            transform: rotate(5deg);
 }
 .design {
     top: 23%;
     left: 65%;
+    -webkit-transform: rotate(10deg);
+            transform: rotate(10deg);
 }
 .blog .inicio-post {
     position: absolute;
