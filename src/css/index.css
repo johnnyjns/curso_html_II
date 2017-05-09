@@ -26,6 +26,11 @@ main {
     padding-bottom: 0;
     float: none;
 }
+h1 {
+    text-transform: uppercase;
+    font-size: 1em;
+    text-shadow: 5px 5px #000;
+}
 .banner-twitter {
     width: 14em;
     line-height: 1;
