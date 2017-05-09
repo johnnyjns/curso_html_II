@@ -206,6 +206,7 @@ body {
     opacity: .6;
 }
 .titulo-principal {
+    background-image: linear-gradient(to bottom, #F00, #888 88%, #000);
     -webkit-transform-style: preserve-3d;
             transform-style: preserve-3d;
     position: relative;
