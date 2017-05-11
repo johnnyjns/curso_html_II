@@ -31,3 +31,8 @@
 .citacao-bio:focus {
     box-shadow: 0 0 0 99999px rgba(0,0,0,.8);
 }
+blockquote:before {
+    content: '"';
+    font-size: 10em;
+    position: absolute;
+}
