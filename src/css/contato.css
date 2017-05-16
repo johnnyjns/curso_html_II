@@ -61,7 +61,7 @@ label[for="nome"] {
     position: relative;
 }
 label[for="nome"]:after {
-    content: "";
+    content: '';
     background-color: #666;
     background-repeat: no-repeat;
     background-image: url(../imagens/usuario.png);
@@ -77,4 +77,35 @@ label[for="nome"]:after {
     width: calc(100% - 2em);
     position: relative;
     left: 2em;
+}
+/* adicionamos essa classe aos rótulos que terão ícone */
+.com-icone::after {
+    content: ''; /* não podemos esquecer do content! */
+    width: 2em;
+    height: 2em;
+    background-color: #8C1D3D;
+    background-size: 50% 50%; /* para a imagem ter 1em x 1em */
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+.com-icone {
+    position: relative;
+}
+.com-icone::after {
+    position: absolute;
+    top: 100%;
+    left: 0;
+}
+.com-icone + input {
+    position: relative;
+    left: 2em;
+}
+.com-icone + input {
+    width: calc(100% - 2em);
+}
+.com-icone[for="nome"]::after {
+    background-image: url(../imagens/usuario.png);
+}
+.com-icone[for="email"]::after {
+    background-image: url(../imagens/email.png);
 }
