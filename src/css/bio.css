@@ -27,11 +27,37 @@ h1 {
     box-sizing: border-box;
     transition: transform 1s, box-shadow 1s;
     transition-delay: 0s, 1s;
-    animation: quica;
+    position: relative;
+    -webkit-animation: quica 1s infinite;
+    animation: quica 1s infinite;
+    -webkit-animation-direction: alternate;
+    animation-direction: alternate;
+    -webkit-animation-timing-function: ease-in;
+    animation-timing-function: ease-in;
 }
-@keyframes {
+@webkit-keyframes quica {
     from {
         top: 0;
+    }
+    90% {
+        transform: rotate(-2deg);
+    }
+    95% {
+        transform: rotate(2deg);
+    }
+    to {
+        top: 1em;
+    }
+}
+@keyframes quica {
+    from {
+        top: 0;
+    }
+    90% {
+        transform: rotate(-2deg);
+    }
+    95% {
+        transform: rotate(2deg);
     }
     to {
         top: 1em;
@@ -73,6 +99,8 @@ h1 {
 .citacao-bio:hover,
 .citacao-bio:focus {
     box-shadow: 0 0 0 99999px rgba(0,0,0,.8);
+    -webkit-animation-play-state: paused;
+    animation-play-state: paused;
 }
 
 .container > p::first-letter {
