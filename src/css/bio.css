@@ -1,3 +1,23 @@
+h1 {
+    -webkit-animation: aparece 5s ease-in;
+    animation: aparece 5s ease-in;
+}
+@-webkit-keyframes aparece {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+@keyframes aparece {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
 .citacao-bio {
     background-color: #D9E5E3;
     border: .5em solid #C2CCCA;
@@ -5,6 +25,8 @@
     margin: 1em 2em;
     width: 30ch;
     box-sizing: border-box;
+    transition: transform 1s, box-shadow 1s;
+    transition-delay: 0s, 1s;
 }
 
 .citacao-bio::before {
