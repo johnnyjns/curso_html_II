@@ -27,6 +27,15 @@ h1 {
     box-sizing: border-box;
     transition: transform 1s, box-shadow 1s;
     transition-delay: 0s, 1s;
+    animation: quica;
+}
+@keyframes {
+    from {
+        top: 0;
+    }
+    to {
+        top: 1em;
+    }
 }
 
 .citacao-bio::before {
